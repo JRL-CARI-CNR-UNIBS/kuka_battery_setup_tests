@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <rosparam command="load" file="$(find kuka_battery_setup_tests)/unscrewing/config/params/unscrewing_params/unscrewing_screw_001.yaml"/>
+  <rosparam command="load" file="$(find kuka_battery_setup_tests)/unscrewing/config/params/unscrewing_params/unscrewing_screw_002.yaml"/>
+  <rosparam command="load" file="$(find kuka_battery_setup_tests)/unscrewing/config/params/unscrewing_params/unscrewing_screw_003.yaml"/>
+  <rosparam command="load" file="$(find kuka_battery_setup_tests)/unscrewing/config/params/unscrewing_params/unscrewing_screw_004.yaml"/>
+  <rosparam command="load" file="$(find kuka_battery_setup_tests)/unscrewing/config/params/unscrewing_params/unscrewing_screw_005.yaml"/>
+  <rosparam command="load" file="$(find kuka_battery_setup_tests)/unscrewing/config/params/unscrewing_params/unscrewing_screw_006.yaml"/>
+  <rosparam command="load" file="$(find kuka_battery_setup_tests)/unscrewing/config/params/unscrewing_params/unscrewing_screw_007.yaml"/>
+  <rosparam command="load" file="$(find kuka_battery_setup_tests)/unscrewing/config/params/unscrewing_params/unscrewing_screw_008.yaml"/>
+  <rosparam command="load" file="$(find kuka_battery_setup_tests)/unscrewing/config/params/unscrewing_params/unscrewing_screw_009.yaml"/>
+  <rosparam command="load" file="$(find kuka_battery_setup_tests)/unscrewing/config/params/unscrewing_params/unscrewing_screw_010.yaml"/>
+  <rosparam command="load" file="$(find kuka_battery_setup_tests)/unscrewing/config/params/unscrewing_params/unscrewing_screw_011.yaml"/>
+  <rosparam command="load" file="$(find kuka_battery_setup_tests)/unscrewing/config/params/unscrewing_params/unscrewing_screw_012.yaml"/>
+  <rosparam command="load" file="$(find kuka_battery_setup_tests)/unscrewing/config/params/unscrewing_params/unscrewing_screw_013.yaml"/>
+  <rosparam command="load" file="$(find kuka_battery_setup_tests)/unscrewing/config/params/unscrewing_params/unscrewing_screw_014.yaml"/>
+  <rosparam command="load" file="$(find kuka_battery_setup_tests)/unscrewing/config/params/unscrewing_params/unscrewing_screw_015.yaml"/>
+  <rosparam command="load" file="$(find kuka_battery_setup_tests)/unscrewing/config/params/unscrewing_params/unscrewing_screw_016.yaml"/>
+  <rosparam command="load" file="$(find kuka_battery_setup_tests)/unscrewing/config/params/unscrewing_params/unscrewing_screw_017.yaml"/>
+  <rosparam command="load" file="$(find kuka_battery_setup_tests)/unscrewing/config/params/unscrewing_params/unscrewing_screw_018.yaml"/>
+  <rosparam command="load" file="$(find kuka_battery_setup_tests)/unscrewing/config/params/unscrewing_params/unscrewing_screw_019.yaml"/>
+  <rosparam command="load" file="$(find kuka_battery_setup_tests)/unscrewing/config/params/unscrewing_params/unscrewing_screw_020.yaml"/>
+  <rosparam command="load" file="$(find kuka_battery_setup_tests)/unscrewing/config/params/unscrewing_params/unscrewing_screw_021.yaml"/>
+  <rosparam command="load" file="$(find kuka_battery_setup_tests)/unscrewing/config/params/unscrewing_params/unscrewing_screw_022.yaml"/>
+  <rosparam command="load" file="$(find kuka_battery_setup_tests)/unscrewing/config/params/unscrewing_params/unscrewing_screw_023.yaml"/>
+  <rosparam command="load" file="$(find kuka_battery_setup_tests)/unscrewing/config/params/unscrewing_params/unscrewing_screw_024.yaml"/>
+  <rosparam command="load" file="$(find kuka_battery_setup_tests)/unscrewing/config/params/unscrewing_params/unscrewing_screw_025.yaml"/>
+  <rosparam command="load" file="$(find kuka_battery_setup_tests)/unscrewing/config/params/unscrewing_params/unscrewing_screw_026.yaml"/>
+  <rosparam command="load" file="$(find kuka_battery_setup_tests)/unscrewing/config/params/unscrewing_params/unscrewing_screw_027.yaml"/>
+  <rosparam command="load" file="$(find kuka_battery_setup_tests)/unscrewing/config/params/unscrewing_params/unscrewing_screw_028.yaml"/>
+
+</launch>

@@ -1,0 +1,12 @@
+skills_executer:
+  kuka_battery_setup:
+    end_link_frame: "kr_flange"
+    initial_reference_end_effector_frame: "kr_work_point"
+    sensored_joint: "kr_sensor_to_tool_changer_flange"
+    initial_end_effector_touch_links: ["screwdriver"]
+
+  use_pybullet: true
+  use_change_config_bridge: false
+  
+  robots:
+    - kuka_battery_setup

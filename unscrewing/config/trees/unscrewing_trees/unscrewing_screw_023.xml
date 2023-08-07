@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<root BTCPP_format="4">
+  <BehaviorTree ID="unscrewing_screw_023">
+    <Sequence name="unscrewing_screw_023">
+      <SkillExecutionNode name="unscrewing_screw_023/move_to_screw" robot="kuka"/>
+      <SkillExecutionNode name="unscrewing_screw_023/press_screw" robot="kuka"/>
+      <SkillExecutionNode name="unscrewing_screw_023/unscrew" robot="kuka"/>
+      <SkillExecutionNode name="unscrewing_screw_023/return" robot="kuka"/>
+    </Sequence>
+  </BehaviorTree>
+</root>

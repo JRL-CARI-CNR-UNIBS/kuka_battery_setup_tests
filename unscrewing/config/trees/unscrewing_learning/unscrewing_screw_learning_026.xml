@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<root BTCPP_format="4">
+  <BehaviorTree ID="unscrewing_screw_026_learning">
+    <Sequence name="unscrewing_screw_026_learning">
+
+      <ActionExploretionNode name="unscrewing_screw_026" type="standard"/>
+      <ForceSuccess>
+        <SubTree ID='unscrewing_screw_026'/>
+      </ForceSuccess>
+      <ActionArbitrationNode name="unscrewing_screw_026"/>
+      <ActionLearningNode    name="unscrewing_screw_026" type="standard"/>
+
+    </Sequence>
+  </BehaviorTree>
+</root>

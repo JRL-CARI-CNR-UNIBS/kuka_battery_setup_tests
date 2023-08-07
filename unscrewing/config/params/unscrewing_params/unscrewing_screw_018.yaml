@@ -1,0 +1,42 @@
+RL_params:
+  unscrewing_screw_018:
+    action_type: "unscrewing"
+    object_name: "screw_018"
+
+    move_to_screw:
+      target_frame : "screw_018"
+      acceleration_scaling: 0.5
+      velocity_scaling: 0.5
+      skill_type: "joint_move_to"
+      relative_position: [0.0,0.0,0.0]
+      relative_orientation: [0.0,0.0,0.0,1.0]
+
+      relative_position_max_variation: [0.02,0.02,0.02]
+      acceleration_scaling_max_variation: 0.1
+      velocity_scaling_max_variation: 0.1
+
+    press_screw:
+      skill_type: "simple_touch"
+      goal_twist_frame: "kr_link6"
+      release: 0.0
+      release_condition: 0
+      relative_target: true
+
+      goal_twist: [0.05, 0, 0, 0, 0, 0]
+      target_force: 200.0
+
+    return:
+      skill_type: "cartesian_position"
+      frame: "kr_link6"         # the movement is refered to this frame
+      position: [0,0,-0.02]     # traslation to respect the three axes. Position and orientation are alternative to rotZdeg and others.
+      quaternion: [0,0,0,1]  # rotation to respect the three axes
+      linear_velocity_m_s: 0.05
+      angular_velocity_rad_s: 0.7
+
+    unscrew:
+      target_frame: "hole_2"
+      acceleration_scaling: 0.5
+      velocity_scaling: 0.5
+      skill_type: "unscrew"
+      relative_position: [0.0,0.0,0.0]
+      relative_orientation: [0.0,0.0,0.0,1.0]
