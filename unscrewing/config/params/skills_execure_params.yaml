@@ -4,9 +4,10 @@ skills_executer:
     initial_reference_end_effector_frame: "kr_work_point"
     sensored_joint: "kr_sensor_to_tool_changer_flange"
     initial_end_effector_touch_links: ["screwdriver"]
+    goal_joint_tollerance param: 0.001
 
   use_pybullet: true
   use_change_config_bridge: false
-  
+
   robots:
     - kuka_battery_setup
