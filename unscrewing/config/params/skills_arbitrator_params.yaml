@@ -1,0 +1,111 @@
+skills_arbitrator:
+  skills_parameters_name_space: "RL_params"
+
+  actions_evaluation_parameters:
+    # action_type:
+    #   - "param1"
+    #   - "param2"
+    #   - "param3"
+    #   - "param4"
+    pick_and_place:
+      - "fail"
+      - "final_distance"
+      - "duration"
+      - "max_force"
+
+  actions_parameters_weights:
+    pick_and_place:
+      - -1000000
+      - -10000
+      - -100
+      - -0.01
+
+  skills_evaluation_parameters:
+    # skill_type:
+    #   - "param1"
+    #   - "param2"
+    #   - "param3"
+    #   - "param4"
+    cartesian_velocity:
+      - "duration"
+      - "max_force"
+      - "traveled_distance"
+      - "contact"
+    cartesian_position:
+      - "duration"
+      - "max_force"
+      - "traveled_distance"
+      - "contact"
+    simple_touch:
+      - "duration"
+      - "max_force"
+      - "traveled_distance"
+    parallel_gripper_move:
+      - "max_force"
+      - "fail"
+    robotiq_gripper_move:
+      - "max_force"
+      - "fail"
+    move_to:
+      - "duration"
+      - "max_force"
+      - "contact"
+    joint_move_to:
+      - "duration"
+      - "max_force"
+      - "contact"
+    linear_move_to:
+      - "duration"
+      - "max_force"
+      - "traveled_distance"
+      - "contact"
+    linear_move:
+      - "duration"
+      - "max_force"
+      - "traveled_distance"
+      - "contact"
+
+  skills_parameters_weights :
+    # skill_type:
+    #   - "param1"
+    #   - "param2"
+    #   - "param3"
+    #   - "param4"
+    cartesian_velocity:
+      - -0.001
+      - -0.0001
+      -  1.0
+      - -100000.0
+    cartesian_position:
+      - -0.001
+      - -0.0001
+      -  1.0
+      - -100000.0
+    simple_touch:
+      - -0.5
+      - -1.0
+      -  1.0
+    parallel_gripper_move:
+      - -1.0
+      - -10000000.0
+    robotiq_gripper_move:
+      - -1.0
+      - -10000000.0
+    move_to:
+      - -0.001
+      - -0.0001
+      - -100000.0
+    joint_move_to:
+      - -0.001
+      - -0.0001
+      - -100000.0
+    linear_move_to:
+      - -0.001
+      - -0.0001
+      -  1.0
+      - -100000.0
+    linear_move:
+      - -0.001
+      - -0.0001
+      -  1.0
+      - -100000.0

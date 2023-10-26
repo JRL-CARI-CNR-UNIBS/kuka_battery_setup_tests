@@ -1,0 +1,47 @@
+skills_learning:
+  skills_parameters_name_space: "RL_params"
+
+  skills_parameters_to_optimize:
+    # skill_type:
+    #   - "param1"
+    #   - "param2"
+    #   - "param3"
+    #   - "param4"
+    cartesian_velocity:
+      - "position"
+      - "quaternion"
+      - "linear_velocity_m_s"
+      - "angular_velocity_rad_s"
+    cartesian_position:
+      - "position"
+      - "quaternion"
+      - "linear_velocity_m_s"
+      - "angular_velocity_rad_s"
+    simple_touch:
+      - "goal_twist"
+      - "target_force"
+      - "release"
+    parallel_gripper_move:
+      - "torque"
+    robotiq_gripper_move:
+      - "torque"
+    move_to:
+      - "acceleration_scaling"
+      - "velocity_scaling"
+      - "relative_position"
+      - "relative_orientation"
+    joint_move_to:
+      - "acceleration_scaling"
+      - "velocity_scaling"
+      - "relative_position"
+      - "relative_orientation"
+    linear_move_to:
+      - "acceleration_scaling"
+      - "velocity_scaling"
+      - "relative_position"
+      - "relative_orientation"
+    linear_move:
+      - "acceleration_scaling"
+      - "velocity_scaling"
+      - "position"
+      - "quaternion"

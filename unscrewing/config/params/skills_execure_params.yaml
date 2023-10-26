@@ -1,13 +1,29 @@
 skills_executer:
-  kuka_battery_setup:
-    end_link_frame: "kr_flange"
-    initial_reference_end_effector_frame: "kr_work_point"
-    sensored_joint: "kr_sensor_to_tool_changer_flange"
-    initial_end_effector_touch_links: ["screwdriver"]
-    goal_joint_tollerance param: 0.001
-
   use_pybullet: true
   use_change_config_bridge: false
 
+  skills_parameters_name_space: "RL_params"
+
+  skill_types_names: # If the skill type require a spefic configuration their name must be the same, these skills types need to be used in "RL_params"
+    watch_type: "watch"                    # The robot is stopped and it only communicates  
+    cart_vel_type: "cartesian_velocity"    # Move the robot using a velocity for specific time
+    cart_pos_type: "cartesian_position"    # Move the robot with a relative motion
+    cart_pos_to_type: "cart_pos_to"        # Move the robot to a known position
+    simple_touch_type: "simple_touch"      # cart_vel_type_ until contact with desired force
+    parallel_2f_gripper_move_type: "parallel_gripper_move"  # Motion of our parallel gripper model
+    robotiq_gripper_move_type: "robotiq_gripper_move"       # Motion of robotiq gripper
+    ur_load_program_type: "ur_load_program_"                     # Load a ur program on UR10e
+    move_to_type: "move_to"                                 # Move the robot to a known position using move_group
+    linear_move_type: "linear_move"                         # Linear movement of the robot with a relative motion using move_group
+    linear_move_to_type: "linear_move_to"                   # Linear movement of the robot to a known position using move_group
+    joint_move_to_type: "joint_move_to"                     # Linear movement of the robot to a known position using move_group and a inver cynametic converter
+    release_end_effector_type: "release_end_effector"
+    attach_end_effector_type: "attach_end_effector"
+
   robots:
-    - kuka_battery_setup
+    kuka_battery_setup:
+      end_link_frame: "kr_flange"
+      initial_reference_end_effector_frame: "kr_work_point"
+      sensored_joint: "kr_sensor_to_tool_changer_flange"
+      initial_end_effector_touch_links: ["screwdriver"]
+      goal_joint_tollerance param: 0.001

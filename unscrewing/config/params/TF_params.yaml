@@ -1,30 +1,59 @@
 tf_params:
-  - {name: "visual_battery", frame: "battery", position: [0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0]}
-  - {name: "screw_001", frame: "visual_battery", position: [ 0.29548,-0.52675, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
-  - {name: "screw_002", frame: "visual_battery", position: [-0.29548,-0.52675, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
-  - {name: "screw_003", frame: "visual_battery", position: [ 0.18264,-0.52675, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
-  - {name: "screw_004", frame: "visual_battery", position: [-0.18264,-0.52675, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
-  - {name: "screw_005", frame: "visual_battery", position: [ 0.06779,-0.52675, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
-  - {name: "screw_006", frame: "visual_battery", position: [-0.06779,-0.52675, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
-  - {name: "screw_007", frame: "visual_battery", position: [ 0.39572,-0.51955, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
-  - {name: "screw_008", frame: "visual_battery", position: [-0.39572,-0.51955, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
-  - {name: "screw_009", frame: "visual_battery", position: [ 0.40879,-0.39277, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
-  - {name: "screw_010", frame: "visual_battery", position: [ 0.40879,-0.25493, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
-  - {name: "screw_011", frame: "visual_battery", position: [ 0.40879,-0.12308, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
-  - {name: "screw_012", frame: "visual_battery", position: [ 0.40879,-0.00023, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
-  - {name: "screw_013", frame: "visual_battery", position: [ 0.40879, 0.13061, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
-  - {name: "screw_014", frame: "visual_battery", position: [ 0.40879, 0.26146, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
-  - {name: "screw_015", frame: "visual_battery", position: [-0.40879,-0.39277, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
-  - {name: "screw_016", frame: "visual_battery", position: [-0.40879,-0.25493, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
-  - {name: "screw_017", frame: "visual_battery", position: [-0.40879,-0.12308, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
-  - {name: "screw_018", frame: "visual_battery", position: [-0.40879,-0.00023, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
-  - {name: "screw_019", frame: "visual_battery", position: [-0.40879, 0.13061, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
-  - {name: "screw_020", frame: "visual_battery", position: [-0.40879, 0.26146, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
-  - {name: "screw_021", frame: "visual_battery", position: [ 0.39686, 0.38800, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
-  - {name: "screw_022", frame: "visual_battery", position: [-0.39686, 0.38800, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
-  - {name: "screw_023", frame: "visual_battery", position: [ 0.31679, 0.46120, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
-  - {name: "screw_024", frame: "visual_battery", position: [-0.31679, 0.46120, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
-  - {name: "screw_025", frame: "visual_battery", position: [ 0.29132, 0.58016, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
-  - {name: "screw_026", frame: "visual_battery", position: [-0.29132, 0.58016, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
-  - {name: "screw_027", frame: "visual_battery", position: [ 0.18056, 0.58125, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
-  - {name: "screw_028", frame: "visual_battery", position: [-0.18056, 0.58125, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
+  # - {name: "visual_battery", frame: "battery", position: [0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0]}
+  - {name: "screw_001", frame: "battery", position: [ 0.29548,-0.52675, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
+  - {name: "screw_002", frame: "battery", position: [-0.29548,-0.52675, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
+  - {name: "screw_003", frame: "battery", position: [ 0.18264,-0.52675, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
+  - {name: "screw_004", frame: "battery", position: [-0.18264,-0.52675, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
+  - {name: "screw_005", frame: "battery", position: [ 0.06779,-0.52675, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
+  - {name: "screw_006", frame: "battery", position: [-0.06779,-0.52675, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
+  - {name: "screw_007", frame: "battery", position: [ 0.39572,-0.51955, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
+  - {name: "screw_008", frame: "battery", position: [-0.39572,-0.51955, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
+  - {name: "screw_009", frame: "battery", position: [ 0.40879,-0.39277, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
+  - {name: "screw_010", frame: "battery", position: [ 0.40879,-0.25493, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
+  - {name: "screw_011", frame: "battery", position: [ 0.40879,-0.12308, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
+  - {name: "screw_012", frame: "battery", position: [ 0.40879,-0.00023, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
+  - {name: "screw_013", frame: "battery", position: [ 0.40879, 0.13061, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
+  - {name: "screw_014", frame: "battery", position: [ 0.40879, 0.26146, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
+  - {name: "screw_015", frame: "battery", position: [-0.40879,-0.39277, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
+  - {name: "screw_016", frame: "battery", position: [-0.40879,-0.25493, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
+  - {name: "screw_017", frame: "battery", position: [-0.40879,-0.12308, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
+  - {name: "screw_018", frame: "battery", position: [-0.40879,-0.00023, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
+  - {name: "screw_019", frame: "battery", position: [-0.40879, 0.13061, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
+  - {name: "screw_020", frame: "battery", position: [-0.40879, 0.26146, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
+  - {name: "screw_021", frame: "battery", position: [ 0.39686, 0.38800, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
+  - {name: "screw_022", frame: "battery", position: [-0.39686, 0.38800, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
+  - {name: "screw_023", frame: "battery", position: [ 0.31679, 0.46120, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
+  - {name: "screw_024", frame: "battery", position: [-0.31679, 0.46120, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
+  - {name: "screw_025", frame: "battery", position: [ 0.29132, 0.58016, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
+  - {name: "screw_026", frame: "battery", position: [-0.29132, 0.58016, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
+  - {name: "screw_027", frame: "battery", position: [ 0.18056, 0.58125, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
+  - {name: "screw_028", frame: "battery", position: [-0.18056, 0.58125, 0.15335], quaternion: [0.0, 1.0, 0.0, 0.0]}
+
+  - {name: "visual_screw_001", frame: "screw_001", position: [ 0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0]}
+  - {name: "visual_screw_002", frame: "screw_002", position: [ 0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0]}
+  - {name: "visual_screw_003", frame: "screw_003", position: [ 0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0]}
+  - {name: "visual_screw_004", frame: "screw_004", position: [ 0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0]}
+  - {name: "visual_screw_005", frame: "screw_005", position: [ 0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0]}
+  - {name: "visual_screw_006", frame: "screw_006", position: [ 0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0]}
+  - {name: "visual_screw_007", frame: "screw_007", position: [ 0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0]}
+  - {name: "visual_screw_008", frame: "screw_008", position: [ 0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0]}
+  - {name: "visual_screw_009", frame: "screw_009", position: [ 0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0]}
+  - {name: "visual_screw_010", frame: "screw_010", position: [ 0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0]}
+  - {name: "visual_screw_011", frame: "screw_011", position: [ 0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0]}
+  - {name: "visual_screw_012", frame: "screw_012", position: [ 0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0]}
+  - {name: "visual_screw_013", frame: "screw_013", position: [ 0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0]}
+  - {name: "visual_screw_014", frame: "screw_014", position: [ 0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0]}
+  - {name: "visual_screw_015", frame: "screw_015", position: [ 0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0]}
+  - {name: "visual_screw_016", frame: "screw_016", position: [ 0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0]}
+  - {name: "visual_screw_017", frame: "screw_017", position: [ 0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0]}
+  - {name: "visual_screw_018", frame: "screw_018", position: [ 0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0]}
+  - {name: "visual_screw_019", frame: "screw_019", position: [ 0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0]}
+  - {name: "visual_screw_020", frame: "screw_020", position: [ 0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0]}
+  - {name: "visual_screw_021", frame: "screw_021", position: [ 0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0]}
+  - {name: "visual_screw_022", frame: "screw_022", position: [ 0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0]}
+  - {name: "visual_screw_023", frame: "screw_023", position: [ 0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0]}
+  - {name: "visual_screw_024", frame: "screw_024", position: [ 0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0]}
+  - {name: "visual_screw_025", frame: "screw_025", position: [ 0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0]}
+  - {name: "visual_screw_026", frame: "screw_026", position: [ 0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0]}
+  - {name: "visual_screw_027", frame: "screw_027", position: [ 0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0]}
+  - {name: "visual_screw_028", frame: "screw_028", position: [ 0.0, 0.0, 0.0], quaternion: [0.0, 0.0, 0.0, 1.0]}
